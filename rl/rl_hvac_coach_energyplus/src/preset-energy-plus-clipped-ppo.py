@@ -16,7 +16,7 @@ import eplus
 ####################
 
 schedule_params = ScheduleParameters()
-schedule_params.improve_steps = TrainingSteps(2000)
+schedule_params.improve_steps = TrainingSteps(20000)
 schedule_params.steps_between_evaluation_periods = EnvironmentSteps(1000)
 schedule_params.evaluation_steps = EnvironmentEpisodes(2)
 schedule_params.heatup_steps = EnvironmentSteps(0)
